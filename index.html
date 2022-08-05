@@ -7,13 +7,17 @@
     <title>netflix
     </title>
     <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    <div>
-        <header> <h1>Net <span id="flix">flix</span></h1>
+    <div class="container">
+        <header> <h1>NET<span style="color:red ;">FLİX</span></h1>
         <p>Thank you for signing up at Netflix.Tell us about your self  </p>
         </header>
-        <div>
+        <div class="formlar">
             <form action="">
                 <div ><label for="isim">Name</label>
                 <input type="text" id="isim" placeholder="Enter your name"></div>
@@ -25,6 +29,7 @@
                 </div>
                 <div>
                     <label for="type">Content type</label>
+                    <br>
                     <select name="" id="">
                         <option value="series">Series</option>
                         <option value="movie">movie</option>
@@ -32,44 +37,38 @@
                 </div>
                 <div>
                     <h3>Movie Type</h3>
-                    <label for="comedy">Comedy</label>
                     <input type="checkbox" id="comedy">
-                    <label for="action">Action</label>
+                    <label for="comedy">Comedy</label>
+                    
+                    <br>
                     <input type="checkbox" id="action">
-                    <label for="romance">Romance</label>
+                    <label for="action">Action</label>
+                   
+                    <br>
                     <input type="checkbox" id="romance">
+                    <label for="romance">Romance</label>
+                   
                 </div>
                 <div>
                     <h3>Gender</h3>
+                    <input type="radio" id="male" name="gender">
                     <label for="male">Male</label>
-                    <input type="radio" id="male">
+                    <input type="radio" id="female" name="gender">
                     <label for="female">Female</label>
-                    <input type="radio" id="female">
+                    <input type="radio" id="other" name="gender">
                     <label for="other">Other</label>
-                    <input type="radio" id="other">
+                    
+                </div>
+
+                <div>
+                    <h3>Feed back</h3>
+                    <textarea name="" id="" ></textarea>
+                </div>
+                <div id="form-submit">
+                    <input type="submit" value="Submit" id="form-button">
                 </div>
             </form>
         </div>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Message me_code-anka
-
-
-
